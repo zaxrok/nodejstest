@@ -4,5 +4,5 @@ http.createServer(function(req, res) {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello Azuer\n');
 }).listen(port, function(){
-	console.log(port);
+	console.log(port+'jj');
 });
